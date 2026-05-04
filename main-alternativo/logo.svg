@@ -1,7 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Logo">
-  <rect width="120" height="120" rx="16" fill="#fffafa"/>
-  <path d="M18 20h84v80H18z" fill="#FCE9E9"/>
-  <path d="M28 28h64v64H28z" fill="#8E1515"/>
-  <path d="M38 43h44v10H65v38H55V53H38z" fill="#fffafa"/>
-  <path d="M41 78l26-35h13L54 78h28v10H41z" fill="#F6C1C1"/>
+  <defs>
+    <linearGradient id="logoRed" x1="18" y1="102" x2="102" y2="18" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8E1515"/>
+      <stop offset="1" stop-color="#DE2121"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#logoRed)" d="M60 11 104 36c4 2 6 6 6 10v15L61 33 37 47v13l46 27-23 13-50-29V47c0-8 4-14 11-18l33-18c2-1 4-1 6 0Z"/>
+  <path fill="url(#logoRed)" d="M60 109 16 84c-4-2-6-6-6-10V59l49 28 24-14V60L37 33l23-13 50 29v24c0 8-4 14-11 18l-33 18c-2 1-4 1-6 0Z"/>
+  <path fill="#160303" fill-opacity=".08" d="m37 60 46 27-15 8-58-34V47c0-3 1-7 3-10v24l47 27 8-5-31-18Z"/>
 </svg>
