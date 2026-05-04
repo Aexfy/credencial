@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credencial de contacto</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="contact-card" aria-label="Credencial digital de contacto">
+      <div class="brand-row">
+        <div class="logo-mark" aria-label="Logo"><img src="./logo.svg" alt="Logo de la marca"></div>
+        <div class="brand-copy">
+          <p class="eyebrow">Credencial digital</p>
+          <h1 id="displayName">Tomás Zúñiga</h1>
+        </div>
+      </div>
+      <div class="identity-block"><p class="role" id="displayRole">Analista Programador</p></div>
+      <dl class="contact-list">
+        <div><dt>Telefono</dt><dd id="displayPhone">+56 9 5684 5211</dd></div>
+        <div><dt>Correo</dt><dd id="displayEmail">tomasg.zunigac@gmail.com</dd></div>
+        <div><dt>Ubicacion</dt><dd id="displayLocation">Los Ángeles, Chile</dd></div>
+      </dl>
+      <div class="action-grid" aria-label="Acciones de contacto">
+        <button class="action-button primary" type="button" id="saveContact"><span class="button-icon" aria-hidden="true">+</span>Agregar contacto</button>
+        <a class="action-button" id="emailButton" href="#"><span class="button-icon" aria-hidden="true">@</span>Enviar correo</a>
+        <a class="action-button" id="whatsappButton" href="#" target="_blank" rel="noopener"><span class="button-icon" aria-hidden="true">W</span>WhatsApp</a>
+        <button class="action-button" type="button" id="copyPhone"><span class="button-icon" aria-hidden="true">#</span>Copiar numero</button>
+      </div>
+      <p class="status-message" id="statusMessage" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
