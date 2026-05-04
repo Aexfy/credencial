@@ -1,0 +1,13 @@
+Color principal: #8E1515
+Paleta de colores:
+#FCE9E9
+#F6C1C1
+#F09999
+#EA7171
+#E44949
+#DE2121
+#A81919
+#8E1515
+#660F0F
+#3E0909
+#160303
